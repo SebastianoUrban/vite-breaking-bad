@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card mt-4">
     <img :src="image" alt="" class="card-image-top">
     <div class="card-body">
       <h3 class="card-title">{{ name }}</h3>
@@ -27,6 +27,7 @@
 <style lang="scss" scoped>
   .card {
     width: calc((100% / 5) - 20px);
+    background-color: rgb(182, 180, 180);
     h3.card-title {
     font-size: 1rem;
     height: 80%;

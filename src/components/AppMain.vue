@@ -1,9 +1,14 @@
 <template>
-  <div class="wrapper d-flex justify-content-between flex-wrap">
-    <MainCard v-for="card in cards" 
+  <div class="wrapper">
+    <div>
+      <h3>Numero di carte: {{ cards.length }}</h3>
+    </div>
+    <div  class=" d-flex justify-content-between flex-wrap">
+      <MainCard v-for="card in cards" 
       :name = "card.name"
       :archetype = "card.archetype"
       :image = "card.card_images[0].image_url"/>
+    </div>
   </div>
 </template>
 

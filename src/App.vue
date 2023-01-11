@@ -4,7 +4,7 @@ import AppMain from './components/AppMain.vue'
 </script>
 
 <template>
-    <header>
+    <header class="d-flex justify-content-center align-items-center">
       <AppHeader/>
     </header>
 
